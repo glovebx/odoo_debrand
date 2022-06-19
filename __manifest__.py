@@ -9,7 +9,7 @@
     'description': """
         This module debrand original verbose brand information
         """,
-    'depends': [ ],
+    'depends': ['discuss'],
     'data': [
         'views/views.xml'
     ],
@@ -17,10 +17,10 @@
         'web.assets_qweb': [
         ],
         'web.assets_backend': [
-            'debrand/static/src/**/*',
+            'odoo-debrand/static/src/**/*',
         ],
         'web.assets_frontend': [
-            'debrand/static/src/css/web_no_bubble.scss',
+            'odoo-debrand/static/src/css/web_no_bubble.scss',
         ],
         'web.tests_assets': [
         ],
@@ -29,5 +29,5 @@
     },
     'installable': True,
     'application': True,
-    'license': 'OEEL-1',
+    'license': 'Apache License 2.0',
 }
