@@ -9,7 +9,7 @@
     'description': """
         This module debrand original verbose brand information
         """,
-    'depends': ['discuss'],
+    'depends': ['mail'],
     'data': [
         'views/views.xml'
     ],
@@ -29,5 +29,5 @@
     },
     'installable': True,
     'application': True,
-    'license': 'Apache License 2.0',
+    'license': 'LGPL-3',
 }
