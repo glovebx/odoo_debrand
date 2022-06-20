@@ -17,10 +17,10 @@
         'web.assets_qweb': [
         ],
         'web.assets_backend': [
-            'odoo-debrand/static/src/**/*',
+            'odoo_debrand/static/src/**/*',
         ],
         'web.assets_frontend': [
-            'odoo-debrand/static/src/css/web_no_bubble.scss',
+            'odoo_debrand/static/src/css/web_no_bubble.scss',
         ],
         'web.tests_assets': [
         ],
