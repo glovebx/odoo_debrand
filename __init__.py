@@ -5,5 +5,5 @@ import odoo
 def post_init_hook(cr, reg):
     env = odoo.api.Environment(cr, odoo.SUPERUSER_ID, {})
     odoo_root = env.ref("base.partner_root")
-    odoo_root.write({"name": "PPMessageBot"})
+    odoo_root.write({"name": "PPMessageBot", "email": "ppmessagebot@example.com"})
     return
